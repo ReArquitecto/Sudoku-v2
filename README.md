@@ -15,7 +15,10 @@ and was later adopted by American, Japanese
 
 ## Instructions
 - Fork, download or clone the repository to your local machine   
-- Compile and run the code   
+- Compile and run the code
+
+## Thoughts
+This simple project was a lot of fun to make. Take it as inspiration for your own projects. It is far from perfect 
 
 ## Principle Classes and Methods
 - Sudoku   
@@ -42,15 +45,28 @@ and was later adopted by American, Japanese
     - export board (exports board to a file with user provided name)  
     - isValid (checks if the board is a valid configuration)   
     
-- Conversion
-    - takes subgrid number and position within the subgrid number
-        - to get this count subgrid or position from left to right top to bottom.
-    - Assign each subgrid starting row and column
-    - Adds to starting row based on position id
-        - 1, 2, 3 add 0 to row position
-        - 4, 5, 6, add 1 to row position
-        - 7, 8, 9, add 2 to row position
-    - Add to starting column based on position id
-        - 1, 4, 7 add 0 to column position
-        - 2, 5, 8, add 1 to column position
-        - 3, 6, 9, add 2 to column position
+- Conversion   
+    - takes subgrid number and position within the subgrid number   
+        - to get this count subgrid or position from left to right top to bottom.   
+    - Assign each subgrid starting row and column   
+    - Adds to starting row based on position id   
+        - 1, 2, 3 add 0 to row position   
+        - 4, 5, 6, add 1 to row position   
+        - 7, 8, 9, add 2 to row position   
+    - Add to starting column based on position id   
+        - 1, 4, 7 add 0 to column position   
+        - 2, 5, 8, add 1 to column position   
+        - 3, 6, 9, add 2 to column position   
+
+## Where to learn   
+In the development of this project, many sources were used among the following:   
+- https://devdocs.io/cpp/ (DevDocks)   
+- https://learn.microsoft.com/en-us/cpp/?view=msvc-170 (Microsoft Documentation)   
+- https://stackoverflow.com/ (Stack Overflow)
+
+I did not do very much research on Sudoku Puzzles and used intuition to figure out how to generate the puzzles, however if you would like to learn more about them, here are a few links that I found helpfull. 
+- https://www.sudokuwiki.org/ (Sudoku Wiki)
+- https://www.sudokudragon.com/unsolvable.htm (Sudoku Dragon)
+- https://sudokuprimer.com/patterns.php (Sudoku Primer - analizes patterns found in puzzles)
+
+The internet has lots of sources to learn to code as well as learn about Sudoku
