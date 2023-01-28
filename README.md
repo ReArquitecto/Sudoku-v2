@@ -1,12 +1,17 @@
 # Sudoku-v2   
 A Sudoku puzzle generator and player.   
-The original Sudoku game is of Swiss origin    
-and was later adopted by American, Japanese   
-(where it was givin its name) and other cultures
+Sudoku is of 16th century Swiss origin. It recieved   
+its name in Japan and was later adopted by American    
+and other cultures and widly popularized by newspapers.
+The first newspaper to host the puzzle was The Conway    
+Daily Sun.
+
+
+# Purpose
 
 ## Video Demonstration and Code Walkthrough
-
 [Sudoku YouTube Video](https://youtu.be/tqNJvK5f7MM)
+
 ## Features   
 - Generate random boards of varying difficulties      
 - Export Generated boards into files   
