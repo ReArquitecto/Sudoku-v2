@@ -7,7 +7,16 @@ The first newspaper to host the puzzle was The Conway
 Daily Sun.
 
 
-# Purpose
+## Purpose
+An exercise to develop coding skills. The code uses   
+programming fundamentals including:
+- Variables
+- Expressions
+- Conditionals
+- Loops
+- Functions
+- Classes
+- Data structures from STL
 
 ## Video Demonstration and Code Walkthrough
 [Sudoku YouTube Video](https://youtu.be/tqNJvK5f7MM)
