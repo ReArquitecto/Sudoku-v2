@@ -4,6 +4,9 @@ The original Sudoku game is of Swiss origin
 and was later adopted by American, Japanese   
 (where it was givin its name) and other cultures
 
+## Video Demonstration and Code Walkthrough
+
+[Sudoku YouTube Video](https://youtu.be/tqNJvK5f7MM)
 ## Features   
 - Generate random boards of varying difficulties      
 - Export Generated boards into files   
@@ -12,6 +15,13 @@ and was later adopted by American, Japanese
 - Turn on and off placement warnings   
 - Time and record moves   
 - Export game data  
+
+## To Do List
+- Further randomize the board generation algorithm 
+- Replace the number placeholders with dashes
+- Improve visibility
+- Improve placement warning errors
+- Correct a specific bug where the user can win on incorrectly competed boards
 
 ## Instructions
 - Fork, download or clone the repository to your local machine   
